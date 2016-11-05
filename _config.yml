@@ -17,9 +17,8 @@
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-description: > My website, still in development
+description: > "My website, still in development"
 baseurl: ""
-url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown

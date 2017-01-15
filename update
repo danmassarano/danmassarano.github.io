@@ -1,0 +1,3 @@
+bundle update github-pages
+bundle update
+gem update github-pages

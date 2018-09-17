@@ -56,15 +56,16 @@ cd %DEPLOYMENT_SOURCE%
 cd
 
 
-curl -L -o update.gem https://github.com/rubygems/rubygems/releases/download/v2.2.3/rubygems-update-2.2.3.gem
+curl -L -o update.gem https://rubygems.org/downloads/rubygems-update-2.6.7.gem
 call gem install --local update.gem
 call update_rubygems --no-ri --no-rdoc > updaterubygemsout
+call gem uninstall rubygems-update -x
 ECHO What's our new Rubygems version?
 call gem --version
-ECHO Updating Rubygems...
-call gem update --system
-ECHO What's our new Rubygems version?
-call gem --version
+REM ECHO Updating Rubygems...
+REM call gem update --system
+REM ECHO What's our new Rubygems version?
+REM call gem --version
 
 call gem install bundler
 

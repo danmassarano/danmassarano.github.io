@@ -59,15 +59,31 @@ cd
 curl -L -o update.gem https://rubygems.org/downloads/rubygems-update-2.6.7.gem
 call gem install --local update.gem
 call update_rubygems --no-ri --no-rdoc > updaterubygemsout
-ECHO 3 | call gem uninstall rubygems-update -x
+call gem uninstall rubygems-update -x
 ECHO What's our new Rubygems version?
 call gem --version
 REM ECHO Updating Rubygems...
 REM call gem update --system
 REM ECHO What's our new Rubygems version?
 REM call gem --version
-ECHO Installing DevKit
-call ridk install 1 2 3
+
+REM Get DevKit to build Ruby native gems  
+REM If you don't need DevKit, rem this out.
+curl -o DevKit.zip https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-2/rubyinstaller-devkit-2.4.4-2-x64.exe
+echo START Unzipping DevKit
+d:\7zip\7za x -y -oDevKit DevKit.zip > devkitout
+echo DONE Unzipping DevKit
+
+REM Init DevKit
+ruby DevKit\dk.rb init
+
+REM Tell DevKit where Ruby is
+echo --- > config.yml
+echo - D:/home/site/deployments/tools/r/ruby-2.2.4-x64-mingw32 >> config.yml
+
+REM Setup DevKit
+ruby DevKit\dk.rb install
+
 
 call gem install bundler
 

@@ -55,6 +55,7 @@ REM Need to be in Reposistory
 cd %DEPLOYMENT_SOURCE%
 cd
 
+call gem update --system
 call gem install bundler
 
 ECHO Bundler install (not update!)

@@ -59,13 +59,15 @@ cd
 curl -L -o update.gem https://rubygems.org/downloads/rubygems-update-2.6.7.gem
 call gem install --local update.gem
 call update_rubygems --no-ri --no-rdoc > updaterubygemsout
-call 3 | gem uninstall rubygems-update -x
+ECHO 3 | call gem uninstall rubygems-update -x
 ECHO What's our new Rubygems version?
 call gem --version
 REM ECHO Updating Rubygems...
 REM call gem update --system
 REM ECHO What's our new Rubygems version?
 REM call gem --version
+ECHO Installing DevKit
+call ridk install 1 2 3
 
 call gem install bundler
 

@@ -1,4 +1,5 @@
 @if "%SCM_TRACE_LEVEL%" NEQ "4" @echo off
+REM TODO: Fix this & try it out locally to see if we can get Ruby to install properly
 
 REM Put Ruby in Path
 REM You can also use %TEMP% but it is cleared on site restart. Tools is persistent.

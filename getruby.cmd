@@ -62,27 +62,28 @@ call update_rubygems --no-ri --no-rdoc > updaterubygemsout
 call gem uninstall rubygems-update -x
 ECHO What's our new Rubygems version?
 call gem --version
-REM ECHO Updating Rubygems...
-REM call gem update --system
-REM ECHO What's our new Rubygems version?
-REM call gem --version
+ECHO Updating Rubygems...
+call gem update --system
+ECHO What's our new Rubygems version?
+call gem --version
 
 REM Get DevKit to build Ruby native gems  
-REM curl -o DevKit.zip https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-2/rubyinstaller-devkit-2.4.4-2-x64.exe
-REM echo START Unzipping DevKit
-REM d:\7zip\7za x -y -oDevKit DevKit.zip > devkitout
-REM echo DONE Unzipping DevKit
+REM If you don't need DevKit, rem this out.
+curl -o DevKit.zip https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-2/rubyinstaller-devkit-2.4.4-2-x64.exe
+echo START Unzipping DevKit
+d:\7zip\7za x -y -oDevKit DevKit.zip > devkitout
+echo DONE Unzipping DevKit
 
 REM Init DevKit
-REM ruby DevKit\dk.rb init
+ruby DevKit\dk.rb init
 
 REM Tell DevKit where Ruby is
-REM echo --- > config.yml
-REM echo - D:/home/site/deployments/tools/r/ruby-2.2.4-x64-mingw32 >> config.yml
+echo --- > config.yml
+echo - D:/home/site/deployments/tools/r/ruby-2.2.4-x64-mingw32 >> config.yml
 
 REM Setup DevKit
-REM ruby DevKit\dk.rb install
-call ridk install
+ruby DevKit\dk.rb install
+
 
 call gem install bundler
 

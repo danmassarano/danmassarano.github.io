@@ -1,5 +1,5 @@
 title: DanM
-subtitle: Data Engineer, Hacker, Coffee Enthusiast
+subtitle: Data Engineer, Hacker, Caffeine Enthusiast
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -21,11 +21,13 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: my_profile.png
 author: Dan Massarano
-author_bio: Hi, my name is Dan Massarano. I'm a Data Engineer :D
+author_bio:
+    Data Engineer by day, wannabe hacker by night. I like learning new things and either making or breaking stuff is my favourite way to do it.
 author_email: "danielmassarano@gmail.com"
 author_location: Manchester, UK
 author_website_url: "https://danmassarano.com"
-typewrite-text: I'm a data engineer and I'm interested in big data, security, and automation
+typewrite-text:
+    I'm a data engineer and I'm interested in big data, security, and automation
 hero_cover_img: sample_cover.jpg
 
 # Experiences

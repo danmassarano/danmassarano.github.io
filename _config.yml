@@ -43,15 +43,6 @@ author_work_experiences:
               description: Developed data solutions to automate business processes and aid reporting for business-critical applications. Designed data architecture and created ETL pipelines in ADF and SSIS.
               visibility: true
 
-# Education
-author_education_details:
-              - college_logo: university_of_manchester.jpg
-                college_name: The University of Manchester
-                college_url: https://www.manchester.ac.uk/
-                college_degree: Computer Science
-                description: Bachelor of Science (Hons)
-                visibility: true
-
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
@@ -64,6 +55,78 @@ author_project_details:
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
                 visibility: false
+
+# Education
+author_education_details:
+              - college_logo: university_of_manchester.jpg
+                college_name: The University of Manchester
+                college_url: https://www.manchester.ac.uk/
+                college_degree: Computer Science
+                description: Bachelor of Science (Hons)
+                visibility: true
+
+# Certifications
+author_certification_details:
+              - organisation_logo: google.jpg
+                issuing_org: Google
+                cartification_name: Google Cloud Certified Associate Cloud Engineer
+                issue_date: Jul 2022
+                verify_url: https://www.credential.net/18ce7dc0-a7dc-4707-8733-d71053b46d02
+                visibility: true
+              - organisation_logo: google.jpg
+                issuing_org: Google
+                cartification_name: Google Cloud Certified Cloud Digital Leader
+                issue_date: Nov 2021
+                verify_url: https://www.credential.net/2d924198-4dbe-4be9-b2c1-1cce51a267ec
+                visibility: true
+              - organisation_logo: microsoft.jpg
+                issuing_org: Microsoft
+                cartification_name: "Microsoft Certified: Azure Data Engineer Associate"
+                issue_date: Dec 2020
+                verify_url: https://www.youracclaim.com/badges/63ba3ba5-a0d4-4964-8e3d-1e592904d1be
+                visibility: true
+              - organisation_logo: microsoft.jpg
+                issuing_org: Microsoft
+                cartification_name: "Microsoft Certified: Azure Data Fundamentals"
+                issue_date: Aug 2020
+                verify_url: https://www.youracclaim.com/badges/1410afa3-c7f8-4433-bbe5-73b5778a8eaa
+                visibility: true
+              - organisation_logo: microsoft.jpg
+                issuing_org: Microsoft
+                cartification_name: "Microsoft Certified: Azure Security Fundamentals"
+                issue_date: Jan 2023
+                verify_url: https://www.youracclaim.com/badges/1410afa3-c7f8-4433-bbe5-73b5778a8eaa
+                visibility: false
+              - organisation_logo: microsoft.jpg
+                issuing_org: Microsoft
+                cartification_name: "Microsoft Certified: Azure Fundamentals"
+                issue_date: Mar 2020
+                verify_url: https://www.youracclaim.com/badges/739dc1e5-8711-4f72-a95e-404614f301f0
+                visibility: true
+              - organisation_logo: aws.jpg
+                issuing_org: Amazon Web Services (AWS)
+                cartification_name: AWS Certified Cloud Practitioner
+                issue_date: Dec 2019
+                verify_url: https://www.youracclaim.com/badges/03d1308f-da29-4b78-8107-280993eeb5b4
+                visibility: true
+              - organisation_logo: hashicorp.jpg
+                issuing_org: HashiCorp
+                cartification_name: "HashiCorp Certified: Terraform Associate"
+                issue_date: May 2022
+                verify_url: https://www.credly.com/badges/1695833c-e63d-447c-8c94-5071ff348bef
+                visibility: true
+              - organisation_logo: scrum_org.jpg
+                issuing_org: Scrum.org
+                cartification_name: Professional Scrum Master™ I (PSM I)
+                issue_date: Jul 2021
+                verify_url: https://www.credly.com/badges/5fb02a6f-d270-42f7-9ee7-36c403ea84ee
+                visibility: true
+              - organisation_logo: axelos.jpg
+                issuing_org: AXELOS Global Best Practice
+                cartification_name: ITIL Foundation
+                issue_date: Dec 2018
+                verify_url: https://www.youracclaim.com/badges/d3c5348a-989e-4e36-b9ea-93795b3bf2a6
+                visibility: true
 
 # social links
 twitter_username: danmassarano
@@ -89,8 +152,9 @@ permalink: pretty
 
 # Choose what to show
 show_author_work_experiences: true
-show_author_education_details: true
 show_author_project_details: false
+show_author_education_details: true
+show_author_certification_details: true
 
 # pagination of posts
 paginate: 4

@@ -47,16 +47,13 @@ author_work_experiences:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: false
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: false
+              - project_thumbnail: try_hack_me.png
+                project_title: TryHackMe
+                project_info: Cyber Security Training
+                project_description: A great platform to learn about security with tutorials, labs and CTF's. I'm learning a load about pentesting, exploitation, red/blue teaming, secure coding and more.
+                # project_url: https://tryhackme.com/p/purpl3d0ll
+                custom_input: <script src="https://tryhackme.com/badge/1536845"></script>
+                visibility: true
 
 # Education
 author_education_details:
@@ -81,13 +78,13 @@ author_certification_details:
                 issue_date: Nov 2021
                 verify_url: https://www.credential.net/2d924198-4dbe-4be9-b2c1-1cce51a267ec
                 visibility: true
-              - organisation_logo: microsoft.jpg
+              - organisation_logo: azure_data_engineer_associate.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Data Engineer Associate"
                 issue_date: Dec 2020
                 verify_url: https://www.youracclaim.com/badges/63ba3ba5-a0d4-4964-8e3d-1e592904d1be
                 visibility: true
-              - organisation_logo: microsoft.jpg
+              - organisation_logo: azure_data_fundamentals.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Data Fundamentals"
                 issue_date: Aug 2020
@@ -99,31 +96,31 @@ author_certification_details:
                 issue_date: Jan 2023
                 verify_url: https://www.youracclaim.com/badges/1410afa3-c7f8-4433-bbe5-73b5778a8eaa
                 visibility: false
-              - organisation_logo: microsoft.jpg
+              - organisation_logo: azure_fundamentals.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Fundamentals"
                 issue_date: Mar 2020
                 verify_url: https://www.youracclaim.com/badges/739dc1e5-8711-4f72-a95e-404614f301f0
                 visibility: true
-              - organisation_logo: aws.jpg
+              - organisation_logo: aws_certified_cloud_practitioner.png
                 issuing_org: Amazon Web Services (AWS)
                 cartification_name: AWS Certified Cloud Practitioner
                 issue_date: Dec 2019
                 verify_url: https://www.youracclaim.com/badges/03d1308f-da29-4b78-8107-280993eeb5b4
                 visibility: true
-              - organisation_logo: hashicorp.jpg
+              - organisation_logo: hashicorp_certified_terraform_associate.png
                 issuing_org: HashiCorp
                 cartification_name: "HashiCorp Certified: Terraform Associate"
                 issue_date: May 2022
                 verify_url: https://www.credly.com/badges/1695833c-e63d-447c-8c94-5071ff348bef
                 visibility: true
-              - organisation_logo: scrum_org.jpg
+              - organisation_logo: professional_scrum_master_i_psm_i.png
                 issuing_org: Scrum.org
                 cartification_name: Professional Scrum Master™ I (PSM I)
                 issue_date: Jul 2021
                 verify_url: https://www.credly.com/badges/5fb02a6f-d270-42f7-9ee7-36c403ea84ee
                 visibility: true
-              - organisation_logo: axelos.jpg
+              - organisation_logo: itil_foundation.png
                 issuing_org: AXELOS Global Best Practice
                 cartification_name: ITIL Foundation
                 issue_date: Dec 2018
@@ -154,7 +151,7 @@ permalink: pretty
 
 # Choose what to show
 show_author_work_experiences: true
-show_author_project_details: false
+show_author_project_details: true
 show_author_education_details: true
 show_author_certification_details: true
 

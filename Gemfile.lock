@@ -135,7 +135,7 @@ DEPENDENCIES
   jgd (~> 1.12)
   kramdown
   puma
-  sass-embedded (~> 1.54)
+  sass-embedded (~> 1.57.1)
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.1)

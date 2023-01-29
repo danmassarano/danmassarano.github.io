@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.3.2'
 gem 'bundler', '~> 2.4.3'
 gem 'faraday-retry'
 gem 'backports', '~> 3.23'
@@ -8,6 +7,7 @@ gem 'kramdown'
 gem 'puma'
 gem 'sass-embedded', '~> 1.57.1'
 gem 'jekyll-sass-converter', '~> 3.0.0'
+gem 'jekyll', '~> 4.3.2'
 gem 'jekyll-admin', '~> 0.11.1'
 
 

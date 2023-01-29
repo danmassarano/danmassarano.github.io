@@ -126,17 +126,17 @@ DEPENDENCIES
   bundler (~> 2.4.3)
   faraday-retry
   jekyll (~> 4.2.2)
-  jekyll-admin
+  jekyll-admin (~> 0.11.1)
   jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)
   jekyll-paginate (~> 1.1.0)
-  jekyll-sass-converter
+  jekyll-sass-converter (< 3.0)
   jekyll-seo-tag (~> 2.8.0)
   jekyll-sitemap (~> 1.4.0)
   jgd (~> 1.12)
   kramdown
   puma
-  sass-embedded
+  sass-embedded (~> 1.57.1)
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.1)

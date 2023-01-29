@@ -6,9 +6,9 @@ gem 'faraday-retry'
 gem 'backports', '~> 3.23'
 gem 'kramdown'
 gem 'puma'
-gem 'jekyll-admin'
-gem 'jekyll-sass-converter'
-gem 'sass-embedded'
+gem 'jekyll-admin', '~> 0.11.1'
+gem 'jekyll-sass-converter', '< 3.0'
+gem 'sass-embedded', '~> 1.57.1'
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -24,6 +24,9 @@ group :jekyll_plugins do
     gem 'jekyll-gist', '~> 1.5.0'
     gem 'jekyll-seo-tag', '~> 2.8.0'
     gem 'jekyll-sitemap', '~> 1.4.0'
+    # gem 'sass-embedded', '~> 1.57.1'
+    # gem 'jekyll-sass-converter', '~> 3.0.0'
+    # gem 'jekyll-admin', '~> 0.11.1'
 end
 
 

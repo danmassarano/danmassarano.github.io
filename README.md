@@ -104,7 +104,7 @@ Bundler version 2.3.23
 
 $ bundle update
 
-$ bundle exec jekyll -v 
+$ bundle exec jekyll -v
 jekyll 4.2.2
 
 $ bundle exec jekyll serve --livereload

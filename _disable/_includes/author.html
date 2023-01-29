@@ -18,7 +18,7 @@
                 <p>Website : {{author.site}}</p>
                 <p class="profile-links">
                     {% for network in author.social %}
-                    <a class="social-link" href="{{ network.url }}" target="_blank"><i
+                    <a class="social-link" href="{{ network.url }}" target="_blank" rel="noopener noreferrer"><i
                             class="fab fa-{{ network.title }} fa-fw"></i></a>
                     {% endfor %}
                 </p>

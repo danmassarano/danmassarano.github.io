@@ -1,5 +1,8 @@
 # My Personal Website
 
+[![Jekyll CI](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/github-code-scanning/codeql)
+
 ## Local Development Steps
 
 ### Clone Locally
@@ -108,14 +111,6 @@ $ bundle exec jekyll -v
 jekyll 4.2.2
 
 $ bundle exec jekyll serve --livereload
-```
-
-### Security
-
-We use codeQL and dependabot alerts for vulnerabality analysis & fixes.
-
-```s
-$ bundle audit
 ```
 
 ### Github Actions

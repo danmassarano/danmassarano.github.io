@@ -66,13 +66,13 @@ author_education_details:
 
 # Certifications
 author_certification_details:
-              - organisation_logo: google.jpg
+              - organisation_logo: gcp_cloud_engineer.png
                 issuing_org: Google
                 cartification_name: Google Cloud Certified Associate Cloud Engineer
                 issue_date: Jul 2022
                 verify_url: https://www.credential.net/18ce7dc0-a7dc-4707-8733-d71053b46d02
                 visibility: true
-              - organisation_logo: google.jpg
+              - organisation_logo: gcp_cloud_digital_leader.png
                 issuing_org: Google
                 cartification_name: Google Cloud Certified Cloud Digital Leader
                 issue_date: Nov 2021
@@ -90,12 +90,6 @@ author_certification_details:
                 issue_date: Aug 2020
                 verify_url: https://www.youracclaim.com/badges/1410afa3-c7f8-4433-bbe5-73b5778a8eaa
                 visibility: true
-              - organisation_logo: microsoft.jpg
-                issuing_org: Microsoft
-                cartification_name: "Microsoft Certified: Azure Security Fundamentals"
-                issue_date: Jan 2023
-                verify_url: https://www.youracclaim.com/badges/1410afa3-c7f8-4433-bbe5-73b5778a8eaa
-                visibility: false
               - organisation_logo: azure_fundamentals.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Fundamentals"

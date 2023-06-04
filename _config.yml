@@ -1,4 +1,4 @@
-title: DanM
+title: Dani Massarano
 subtitle: Data Engineer, Hacker, Caffeine Enthusiast
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
@@ -19,7 +19,7 @@ urls:
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
-author_logo: my_profile.png
+author_logo: avatar.png
 author: Dan Massarano
 author_bio:
     Data Engineer by day, wannabe hacker by night. I like learning new things and either making or breaking stuff is my favourite way to do it.
@@ -28,18 +28,18 @@ author_location: Manchester, UK
 author_website_url: "https://danmassarano.com"
 typewrite-text:
     I'm a data engineer and I'm interested in big data, security, and automation
-hero_cover_img: sample_cover.jpg
+hero_cover_img: banner.png
 
 # Experiences
 author_work_experiences:
             - company_name: The Data Shed
-              company_logo: the_data_shed.png
+              company_logo: career/the_data_shed.png
               company_url: https://thedatashed.co.uk/
               designation: Senior Data Engineer
               description: Tech lead for a team working on GCP migration that builds, tests, and deploys big data solutions.
               visibility: true
             - company_name: KPMG UK
-              company_logo: kpmg.jpg
+              company_logo: career/kpmg.jpg
               company_url: https://home.kpmg/uk/en/home.html
               designation: Data Engineer
               description: Developed data solutions to automate business processes and aid reporting for business-critical applications. Designed data architecture and created ETL pipelines in ADF and SSIS.
@@ -47,7 +47,7 @@ author_work_experiences:
 
 # Projects
 author_project_details:
-              - project_thumbnail: try_hack_me.png
+              - project_thumbnail: projects/try_hack_me.png
                 project_title: TryHackMe
                 project_info: Cyber Security Training
                 project_description: A great platform to learn about security with tutorials, labs and CTF's. I'm learning a load about pentesting, exploitation, red/blue teaming, secure coding and more.
@@ -57,7 +57,7 @@ author_project_details:
 
 # Education
 author_education_details:
-              - college_logo: university_of_manchester.jpg
+              - college_logo: career/university_of_manchester.jpg
                 college_name: The University of Manchester
                 college_url: https://www.manchester.ac.uk/
                 college_degree: Computer Science
@@ -66,55 +66,55 @@ author_education_details:
 
 # Certifications
 author_certification_details:
-              - organisation_logo: gcp_cloud_engineer.png
+              - organisation_logo: certs/gcp_cloud_engineer.png
                 issuing_org: Google
                 cartification_name: Google Cloud Certified Associate Cloud Engineer
                 issue_date: Jul 2022
                 verify_url: https://www.credential.net/18ce7dc0-a7dc-4707-8733-d71053b46d02
                 visibility: true
-              - organisation_logo: gcp_cloud_digital_leader.png
+              - organisation_logo: certs/gcp_cloud_digital_leader.png
                 issuing_org: Google
                 cartification_name: Google Cloud Certified Cloud Digital Leader
                 issue_date: Nov 2021
                 verify_url: https://www.credential.net/2d924198-4dbe-4be9-b2c1-1cce51a267ec
                 visibility: true
-              - organisation_logo: azure_data_engineer_associate.png
+              - organisation_logo: certs/azure_data_engineer_associate.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Data Engineer Associate"
                 issue_date: Dec 2020
                 verify_url: https://www.youracclaim.com/badges/63ba3ba5-a0d4-4964-8e3d-1e592904d1be
                 visibility: true
-              - organisation_logo: azure_data_fundamentals.png
+              - organisation_logo: certs/azure_data_fundamentals.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Data Fundamentals"
                 issue_date: Aug 2020
                 verify_url: https://www.youracclaim.com/badges/1410afa3-c7f8-4433-bbe5-73b5778a8eaa
                 visibility: true
-              - organisation_logo: azure_fundamentals.png
+              - organisation_logo: certs/azure_fundamentals.png
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Fundamentals"
                 issue_date: Mar 2020
                 verify_url: https://www.youracclaim.com/badges/739dc1e5-8711-4f72-a95e-404614f301f0
                 visibility: true
-              - organisation_logo: aws_certified_cloud_practitioner.png
+              - organisation_logo: certs/aws_certified_cloud_practitioner.png
                 issuing_org: Amazon Web Services (AWS)
                 cartification_name: AWS Certified Cloud Practitioner
                 issue_date: Dec 2019
                 verify_url: https://www.youracclaim.com/badges/03d1308f-da29-4b78-8107-280993eeb5b4
                 visibility: true
-              - organisation_logo: hashicorp_certified_terraform_associate.png
+              - organisation_logo: certs/hashicorp_certified_terraform_associate.png
                 issuing_org: HashiCorp
                 cartification_name: "HashiCorp Certified: Terraform Associate"
                 issue_date: May 2022
                 verify_url: https://www.credly.com/badges/1695833c-e63d-447c-8c94-5071ff348bef
                 visibility: true
-              - organisation_logo: professional_scrum_master_i_psm_i.png
+              - organisation_logo: certs/professional_scrum_master_i_psm_i.png
                 issuing_org: Scrum.org
                 cartification_name: Professional Scrum Master™ I (PSM I)
                 issue_date: Jul 2021
                 verify_url: https://www.credly.com/badges/5fb02a6f-d270-42f7-9ee7-36c403ea84ee
                 visibility: true
-              - organisation_logo: itil_foundation.png
+              - organisation_logo: certs/itil_foundation.png
                 issuing_org: AXELOS Global Best Practice
                 cartification_name: ITIL Foundation
                 issue_date: Dec 2018

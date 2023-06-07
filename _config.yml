@@ -1,10 +1,14 @@
 title: Dani Massarano
 subtitle: Data Engineer, Hacker, Caffeine Enthusiast
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+description: >-
+  I'm a data engineer and I'm interested in big data, security, and automation
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+image:
+  path: android-chrome-512x512
+  height: 100
+  width: 100
+url: "https://danmassarano.com"
+baseurl: ""
 
 # Navigation
 urls:

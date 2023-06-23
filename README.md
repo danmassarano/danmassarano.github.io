@@ -5,13 +5,6 @@
 
 ## Local Development Steps
 
-### Clone Locally
-
-```s
-$ git clone https://github.com/your_github_username/your_github_username.github.io.git
-$ cd your_github_username
-```
-
 ### Linux : (Ubuntu 20.04)
 
 To work locally with ubuntu, follow these commands:
@@ -51,26 +44,19 @@ jekyll 4.2.2
 $ bundle exec jekyll serve --livereload
 ```
 
-If you are running into permission issues running bundler, try the following:
+If you are running into permission issues running bundler, try removing the `_site` directory and reinstall bundle.
 
-```s
-$ sudo rm -rf _site
-$ bundle update
-$ bundle install
-$ bundle exec jekyll serve
-```
-
-Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
+Start the server locally at <http://127.0.0.1:4000/> or <http://localhost:4000/>
 
 ### MacOS
 
 1. Install Homebrew
 
-```s
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+  ```s
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
 
-2. Install churby and ruby-install with Homebrew
+2. Install chruby and ruby-install with Homebrew
 
 ```s
 brew install chruby ruby-install
@@ -97,7 +83,7 @@ $ ruby -v
 ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
 ```
 
-1. Install latest gems
+5. Install latest gems
 
 ```s
 $ gem install jekyll bundler
@@ -112,6 +98,24 @@ jekyll 4.2.2
 
 $ bundle exec jekyll serve --livereload
 ```
+
+### Using Docker
+
+This is handled using a Makefile for convenience.
+
+Building the Image:
+
+```s
+make image
+```
+
+Running the Container :
+
+```s
+make run
+```
+
+The site will be served at <http://localhost:4000>
 
 ### Github Actions
 
@@ -128,51 +132,3 @@ This Project has actions to auto deploy jekyll to github pages and firebase. The
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
-
-## Using Docker
-
-Building the Image:
-
-```s
-docker build -t my-devlopr-jekyll-blog .
-```
-
-Running the container :
-
-```s
-docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-devlopr-jekyll-blog:latest jekyll serve --watch
-```
-
-## Using Docker Compose
-
-### Development
-
-You can run the app in development mode : (your changes will be reflected --watch moded)
-
-Serve the site at [http://localhost:4000](http://localhost:4000)
-
-```s
-docker-compose -f docker-compose-dev.yml up --build --remove-orphans
-```
-
-### Production
-
-You can run the app in production mode : (your changes will be reflected --watch moded)
-
-Serve the site at [http://localhost:4000](http://localhost:4000)
-
-```s
-docker-compose -f docker-compose-prod.yml up --build --remove-orphans
-```
-
-Stop the app :
-
-```s
-docker-compose -f docker-compose-prod.yml down
-```
-
-Once everything is good and ready to go live -
-
-```s
-docker-compose -f docker-compose-prod.yml up --build --detach
-```

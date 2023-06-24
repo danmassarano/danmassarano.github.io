@@ -3,6 +3,8 @@
 [![Jekyll CI](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/codeql-analysis.yml)
 [![CodeQL](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/danmassarano/danmassarano.github.io/actions/workflows/github-code-scanning/codeql)
 
+![PageSpeed](/pagespeed-metrics.svg)
+
 ## Local Development Steps
 
 ### Linux : (Ubuntu 20.04)
@@ -116,19 +118,3 @@ make run
 ```
 
 The site will be served at <http://localhost:4000>
-
-### Github Actions
-
-This Project has actions to auto deploy jekyll to github pages and firebase. The deployment target can be set by editing the `DEPLOY_STRATEGY` file. Valid values are:
-
-- `none`: default value. use this if you don't want to deploy the site.
-- `gh-pages`: deploys to github pages. This uses a custom action available in the Marketplace - [Jekyll Deploy Action](https://github.com/marketplace/actions/deploy-jekyll-site)
-- `firebase`: deploys to firebase. Before you can use this you need to first create a firebase project [here](https://console.firebase.google.com/). You can signup for a Free Spark Plan. Then, in your github repo's settings, go to the secrets section and add the following:
-  - `FIREBASE_TOKEN`: your firebase token. you can get this by running `firebase login:ci` with the firebase cli.
-  - `FIREBASE_PROJECT_ID`: the project id of the project you just created
-
-### Jekyll Admin
-
-You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
-
-![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)

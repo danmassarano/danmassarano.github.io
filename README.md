@@ -118,3 +118,14 @@ make run
 ```
 
 The site will be served at <http://localhost:4000>
+
+### Metrics
+
+Run locally from the `metrics` repo to generate image. Ensure that GitHub and Google API keys are configured beforehand.
+
+```s
+npm install
+npm start
+```
+
+Navigate to [the following URL](http://localhost:3000/danmassarano?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&pagespeed=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&pagespeed=false&pagespeed.url=https%3A%2F%2Fdanmassarano.com&pagespeed.detailed=true&pagespeed.screenshot=false&pagespeed.pwa=true&config.timezone=Europe%2FLondon&config.twemoji=true&config.octicon=true), then save the output as `pagespeed-metrics.svg` in the site repo base directory.

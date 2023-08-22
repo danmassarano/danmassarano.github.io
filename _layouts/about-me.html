@@ -6,7 +6,11 @@ layout: default
     <div class="col-lg-4">
       <div class="card" id="profile-card">
         <a href="/">
-          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
+          <picture>
+            <source class="profile-img" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}">
+            <source class="profile-img" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}">
+            <img class="profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}">
+          </picture>
         </a>
         <h1 class="profile-name">{{ site.title }}</h1>
         <p class="profile-bio">{{ site.subtitle }}</p>
@@ -90,7 +94,11 @@ layout: default
         == true %}
         <div class="row">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}" class="company-logo" />
+            <picture>
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail_webp }}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}">
+            </picture>
           </div>
           <div class="col-md-5">
             <h4 class="experience-title">{{ project.project_title }}</h4>
@@ -116,7 +124,11 @@ layout: default
         %}
         <div class="row">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="company-logo" />
+            <picture>
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo_webp }}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}">
+            </picture>
           </div>
           <div class="col-md-5">
             <h4 class="experience-title">{{ exp.designation }}</h4>
@@ -134,7 +146,11 @@ layout: default
         == true %}
         <div class="row">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}" class="company-logo" />
+            <picture>
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo_webp }}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}">
+            </picture>
           </div>
           <div class="col-md-5">
             <h4 class="experience-title">{{ detail.college_degree }}</h4>
@@ -152,7 +168,11 @@ layout: default
         == true %}
         <div class="row">
           <div class="col-md-3">
-            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}" class="company-logo" />
+            <picture>
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo_webp }}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}">
+            </picture>
           </div>
           <div class="col-md-5">
             <h4 class="experience-title">{{ detail.cartification_name }}</h4>

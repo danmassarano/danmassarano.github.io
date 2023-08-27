@@ -25,7 +25,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: avatar_small.png
 author_logo_webp: avatar_small.webp
-author: Dan Massarano
+author: Dani
 author_bio:
     Data Engineer by day, wannabe hacker by night. I like learning new things and either making or breaking stuff is my favourite way to do it.
 author_email: "danielmassarano@gmail.com"

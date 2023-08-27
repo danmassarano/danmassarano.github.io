@@ -26,11 +26,11 @@
 <!-- home hero section -->
 <div class="jumbotron">
   <picture>
-    <source class="author-profile-img" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo_webp }}">
-    <source class="author-profile-img" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}">
-    <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}">
+    <source class="author-profile-img" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo_webp }}" alt="{{site.author}}">
+    <source class="author-profile-img" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}"  alt="{{site.author}}">
+    <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" alt="{{site.author}}">
   </picture>
-  <p class="jumbotron-heading">Hi, I am {{site.author}}!</p>
+  <p class="jumbotron-heading">Hi, I'm {{site.author}}!</p>
 
   <p class="lead" id="typewriteText"></p>
 </div>

@@ -7,12 +7,12 @@ layout: default
       <div class="card" id="profile-card">
         <a href="/">
           <picture>
-            <source class="profile-img" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo_webp}}">
-            <source class="profile-img" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}">
-            <img class="profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}">
+            <source class="profile-img" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo_webp}}"  alt="{{site.author}}">
+            <source class="profile-img" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}"  alt="{{site.author}}">
+            <img class="profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}"  alt="{{site.author}}">
           </picture>
         </a>
-        <h1 class="profile-name">{{ site.title }}</h1>
+        <h1 class="profile-name">{{ site.author }}</h1>
         <p class="profile-bio">{{ site.subtitle }}</p>
         {% if site.github_username %} {%- include github_follow_button.html -%} {%
         endif %}
@@ -95,9 +95,9 @@ layout: default
         <div class="row">
           <div class="col-md-3">
             <picture>
-              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}">
-              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail_webp }}">
-              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}">
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}" alt="{{project.project_title}}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail_webp }}" alt="{{project.project_title}}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ project.project_thumbnail }}" alt="{{project.project_title}}">
             </picture>
           </div>
           <div class="col-md-5">
@@ -125,9 +125,9 @@ layout: default
         <div class="row">
           <div class="col-md-3">
             <picture>
-              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo_webp }}">
-              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}">
-              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}">
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo_webp }}" alt="{{exp.company_name}}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" alt="{{exp.company_name}}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" alt="{{exp.company_name}}">
             </picture>
           </div>
           <div class="col-md-5">
@@ -147,9 +147,9 @@ layout: default
         <div class="row">
           <div class="col-md-3">
             <picture>
-              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo_webp }}">
-              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}">
-              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}">
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo_webp }}" alt="{{detail.college_name}}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}" alt="{{detail.college_name}}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo }}" alt="{{detail.college_name}}">
             </picture>
           </div>
           <div class="col-md-5">
@@ -169,9 +169,9 @@ layout: default
         <div class="row">
           <div class="col-md-3">
             <picture>
-              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo_webp }}">
-              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}">
-              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}">
+              <source class="company-logo" type="image/webp" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo_webp }}" alt="{{detail.cartification_name}}">
+              <source class="company-logo" type="image/jpeg" srcset="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}" alt="{{detail.cartification_name}}">
+              <img class="company-logo" src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.organisation_logo }}" alt="{{detail.cartification_name}}">
             </picture>
           </div>
           <div class="col-md-5">

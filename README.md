@@ -5,23 +5,23 @@
 
 ## Local Development Steps
 
-### Linux : (Ubuntu 20.04)
+### Docker
 
-To work locally with ubuntu, follow these commands:
+This is handled using a Makefile for convenience.
+
+Building the Image:
 
 ```s
-$ sudo apt install ruby-full
-$ ruby --version
-ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
-
-$ gem install jekyll bundler
-$ bundle update
-$ bundle install
-$ bundle exec jekyll -v
-jekyll 4.2.2
-
-$ bundle exec jekyll serve --livereload
+make image
 ```
+
+Running the Container:
+
+```s
+make run
+```
+
+The site will be served at <http://localhost:4000>
 
 ### Windows
 
@@ -99,20 +99,20 @@ jekyll 4.2.2
 $ bundle exec jekyll serve --livereload
 ```
 
-### Using Docker
+### Linux : (Ubuntu 20.04)
 
-This is handled using a Makefile for convenience.
-
-Building the Image:
+To work locally with ubuntu, follow these commands:
 
 ```s
-make image
+$ sudo apt install ruby-full
+$ ruby --version
+ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
+
+$ gem install jekyll bundler
+$ bundle update
+$ bundle install
+$ bundle exec jekyll -v
+jekyll 4.2.2
+
+$ bundle exec jekyll serve --livereload
 ```
-
-Running the Container:
-
-```s
-make run
-```
-
-The site will be served at <http://localhost:4000>

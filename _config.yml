@@ -28,9 +28,9 @@ author_logo_webp: avatar_small.webp
 author: Dani
 author_bio:
     Data Engineer by day, wannabe hacker by night. I like learning new things and either making or breaking stuff is my favourite way to do it.
-author_email: "danielmassarano@gmail.com"
+author_email: "dmassarano@outlook.com"
 author_location: Manchester, UK
-author_website_url: "https://danmassarano.com"
+author_website_url: "danmassarano.com"
 typewrite-text:
     I'm a data engineer and I'm interested in big data, security, and automation
 hero_cover_img: banner.png
@@ -43,14 +43,14 @@ author_work_experiences:
               company_logo_webp: career/hippo_digital.webp
               company_url: https://hippodigital.co.uk/
               designation: Senior Data Engineer
-              description: Developing a variety of solutions for clients to ingest, validate, and transform data.
+              description: Tech lead for a team working on projects in GCP to design, build, test, and deliver data platforms.
               visibility: true
             - company_name: The Data Shed
               company_logo: career/the_data_shed.png
               company_logo_webp: career/the_data_shed.webp
               company_url: https://thedatashed.co.uk/
               designation: Senior Data Engineer
-              description: Developing a variety of solutions for clients to ingest, validate, and transform data.
+              description: Tech lead for a team working on projects in GCP to design, build, test, and deliver data platforms.
               visibility: true
             - company_name: KPMG UK
               company_logo: career/kpmg.jpg
@@ -78,7 +78,7 @@ author_education_details:
                 college_name: The University of Manchester
                 college_url: https://www.manchester.ac.uk/
                 college_degree: Computer Science
-                description: Bachelor of Science (Hons)
+                description: BSc (Hons)
                 visibility: true
 
 # Certifications
@@ -132,6 +132,13 @@ author_certification_details:
                 issue_date: Dec 2019
                 verify_url: https://www.youracclaim.com/badges/03d1308f-da29-4b78-8107-280993eeb5b4
                 visibility: true
+              - organisation_logo: certs/databricks_lakehouse_fundamentals.png
+                organisation_logo_webp: certs/databricks_lakehouse_fundamentals.webp
+                issuing_org: Databricks
+                cartification_name: "Databricks Lakehouse Fundamentals"
+                issue_date: Dec 2023
+                verify_url: https://credentials.databricks.com/88d2da48-ac34-40d8-a157-9bd36468cee3#gs.1p547y
+                visibility: true
               - organisation_logo: certs/hashicorp_certified_terraform_associate.png
                 organisation_logo_webp: certs/hashicorp_certified_terraform_associate.webp
                 issuing_org: HashiCorp
@@ -155,10 +162,8 @@ author_certification_details:
                 visibility: true
 
 # social links
-twitter_username: danmassarano
 github_username:  danmassarano
 linkedin_username: dmassarano
-instagram_username: purpl3d0ll
 
 # mailchimp embedded form url (newsletter):
 # mailchimp_form_url:

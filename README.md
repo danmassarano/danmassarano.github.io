@@ -29,17 +29,17 @@ To work locally with windows machine, follow this commands. You might need to do
 
 ```s
 $ ruby -v
-(ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [universal.x86_64-darwin21])
+ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt]
 
 $ gem install jekyll bundler
 
 $ bundler -v
-Bundler version 2.3.23
+Bundler version 2.4.3
 
 $ bundle update
 $ bundle install
 $ bundle exec jekyll -v
-jekyll 4.2.2
+jekyll 4.3.2
 
 $ bundle exec jekyll serve --livereload
 ```
@@ -89,12 +89,12 @@ Install latest gems
 $ gem install jekyll bundler
 
 $ bundler -v
-Bundler version 2.3.23
+Bundler version 2.4.3
 
 $ bundle update
 
 $ bundle exec jekyll -v
-jekyll 4.2.2
+jekyll 4.3.2
 
 $ bundle exec jekyll serve --livereload
 ```
@@ -112,7 +112,7 @@ $ gem install jekyll bundler
 $ bundle update
 $ bundle install
 $ bundle exec jekyll -v
-jekyll 4.2.2
+jekyll 4.3.2
 
 $ bundle exec jekyll serve --livereload
 ```

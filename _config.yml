@@ -139,11 +139,11 @@ author_certification_details:
                 issue_date: Dec 2023
                 verify_url: https://credentials.databricks.com/88d2da48-ac34-40d8-a157-9bd36468cee3#gs.1p547y
                 visibility: true
-              - organisation_logo: certs/hashicorp_certified_terraform_associate.png
-                organisation_logo_webp: certs/hashicorp_certified_terraform_associate.webp
+              - organisation_logo: certs/hashicorp-certified-terraform-associate-003.png
+                organisation_logo_webp: certs/hashicorp-certified-terraform-associate-003.webp
                 issuing_org: HashiCorp
                 cartification_name: "HashiCorp Certified: Terraform Associate"
-                issue_date: May 2022
+                issue_date: Feb 2024
                 verify_url: https://www.credly.com/badges/1695833c-e63d-447c-8c94-5071ff348bef
                 visibility: true
               - organisation_logo: certs/professional_scrum_master_i_psm_i.png
@@ -151,7 +151,7 @@ author_certification_details:
                 issuing_org: Scrum.org
                 cartification_name: Professional Scrum Master™ I (PSM I)
                 issue_date: Jul 2021
-                verify_url: https://www.credly.com/badges/5fb02a6f-d270-42f7-9ee7-36c403ea84ee
+                verify_url: https://www.credly.com/badges/0fb65c51-8ff5-4b61-94ed-0837dab8cd9b
                 visibility: true
               - organisation_logo: certs/itil_foundation.png
                 organisation_logo_webp: certs/itil_foundation.webp

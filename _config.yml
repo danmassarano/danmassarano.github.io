@@ -42,15 +42,28 @@ author_work_experiences:
               company_logo: career/hippo_digital.png
               company_logo_webp: career/hippo_digital.webp
               company_url: https://hippodigital.co.uk/
-              designation: Senior Data Engineer
+              designation: Lead Data Engineer
               description: Tech lead for a team working on projects in GCP to design, build, test, and deliver data platforms.
               visibility: true
+            - company_name: Hippo
+              company_logo: career/hippo_digital.png
+              company_logo_webp: career/hippo_digital.webp
+              company_url: https://hippodigital.co.uk/
+              designation: Senior Data Engineer
+              description: Developing a variety of solutions for clients to ingest, validate, and transform data.
             - company_name: The Data Shed
               company_logo: career/the_data_shed.png
               company_logo_webp: career/the_data_shed.webp
               company_url: https://thedatashed.co.uk/
               designation: Senior Data Engineer
-              description: Tech lead for a team working on projects in GCP to design, build, test, and deliver data platforms.
+              description: Developing a variety of solutions for clients to ingest, validate, and transform data.
+              visibility: true
+            - company_name: The Data Shed
+              company_logo: career/the_data_shed.png
+              company_logo_webp: career/the_data_shed.webp
+              company_url: https://thedatashed.co.uk/
+              designation: Data Engineer
+              description: Migrating data services from on-premises to GCP, rebuilding and testing batch and streaming solutions for big data analytics platforms.
               visibility: true
             - company_name: KPMG UK
               company_logo: career/kpmg.jpg

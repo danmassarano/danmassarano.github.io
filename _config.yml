@@ -43,20 +43,20 @@ author_work_experiences:
               company_logo_webp: career/hippo_digital.webp
               company_url: https://hippodigital.co.uk/
               designation: Lead Data Engineer
-              description: Tech lead for a team working on projects in GCP to design, build, test, and deliver data platforms.
+              description: Tech lead for a team working to design, build, test, and deliver data ingestion and transformation pipelines in DBT, Snowflake, SQL, and Python.
               visibility: true
             - company_name: Hippo
               company_logo: career/hippo_digital.png
               company_logo_webp: career/hippo_digital.webp
               company_url: https://hippodigital.co.uk/
               designation: Senior Data Engineer
-              description: Developing a variety of solutions for clients to ingest, validate, and transform data.
+              description: Developing a variety of solutions for clients to ingest, validate, and transform data in both private cloud and GCP.
             - company_name: The Data Shed
               company_logo: career/the_data_shed.png
               company_logo_webp: career/the_data_shed.webp
               company_url: https://thedatashed.co.uk/
               designation: Senior Data Engineer
-              description: Developing a variety of solutions for clients to ingest, validate, and transform data.
+              description: Developing a variety of solutions for clients to ingest, validate, and transform data in both private cloud and GCP.
               visibility: true
             - company_name: The Data Shed
               company_logo: career/the_data_shed.png
@@ -115,14 +115,14 @@ author_certification_details:
                 issuing_org: Google
                 cartification_name: Google Cloud Certified Cloud Digital Leader
                 issue_date: Nov 2021
-                verify_url: https://www.credential.net/2d924198-4dbe-4be9-b2c1-1cce51a267ec
+                verify_url: https://www.credly.com/badges/19dc190c-e511-4789-84db-61516a4dab7d/linked_in_profile
                 visibility: true
               - organisation_logo: certs/azure_data_engineer_associate.png
                 organisation_logo_webp: certs/azure_data_engineer_associate.webp
                 issuing_org: Microsoft
                 cartification_name: "Microsoft Certified: Azure Data Engineer Associate"
                 issue_date: Dec 2020
-                verify_url: https://www.youracclaim.com/badges/63ba3ba5-a0d4-4964-8e3d-1e592904d1be
+                verify_url: https://learn.microsoft.com/api/credentials/share/en-us/purpl3d0ll/69D9FC5A695164AD?sharingId=3218BF6605AF0F7
                 visibility: true
               - organisation_logo: certs/azure_data_fundamentals.png
                 organisation_logo_webp: certs/azure_data_fundamentals.webp
@@ -144,13 +144,6 @@ author_certification_details:
                 cartification_name: AWS Certified Cloud Practitioner
                 issue_date: Dec 2019
                 verify_url: https://www.youracclaim.com/badges/03d1308f-da29-4b78-8107-280993eeb5b4
-                visibility: true
-              - organisation_logo: certs/databricks_lakehouse_fundamentals.png
-                organisation_logo_webp: certs/databricks_lakehouse_fundamentals.webp
-                issuing_org: Databricks
-                cartification_name: "Databricks Lakehouse Fundamentals"
-                issue_date: Dec 2023
-                verify_url: https://credentials.databricks.com/88d2da48-ac34-40d8-a157-9bd36468cee3#gs.1p547y
                 visibility: true
               - organisation_logo: certs/hashicorp-certified-terraform-associate-003.png
                 organisation_logo_webp: certs/hashicorp-certified-terraform-associate-003.webp

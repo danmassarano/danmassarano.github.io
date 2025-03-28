@@ -127,7 +127,7 @@ GEM
     tzinfo-data (1.2025.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
-    uri (0.13.1)
+    uri (0.13.2)
     wdm (0.2.0)
     webrick (1.9.1)
 

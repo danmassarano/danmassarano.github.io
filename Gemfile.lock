@@ -25,7 +25,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.3)
+    jekyll (4.3.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -143,7 +143,7 @@ DEPENDENCIES
   backports (~> 3.25)
   bundler (~> 2.4.3)
   faraday-retry
-  jekyll (~> 4.3.3)
+  jekyll (~> 4.3.4)
   jekyll-admin (~> 0.12.0)
   jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)

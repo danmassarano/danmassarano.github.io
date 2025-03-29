@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.3.3'
+gem 'jekyll', '~> 4.3.4'
 gem 'bundler', '~> 2.4.3'
 gem 'faraday-retry'
 gem 'backports', '~> 3.25'
@@ -8,6 +8,7 @@ gem 'kramdown'
 gem 'puma'
 gem 'jekyll-admin', '~> 0.11.1'
 gem 'jekyll-sass-converter', '< 3.0'
+gem "ffi", force_ruby_platform: true
 # gem 'sass-embedded', '~> 1.57.1' # Removed due to compatibility issues on github actions
 
 

@@ -11,16 +11,15 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.12.0)
-      faraday-net_http (>= 2.0, < 3.4)
+    faraday (2.12.2)
+      faraday-net_http (>= 2.0, < 3.5)
       json
       logger
-    faraday-net_http (3.3.0)
-      net-http
-    faraday-retry (2.2.1)
+    faraday-net_http (3.4.0)
+      net-http (>= 0.5.0)
+    faraday-retry (2.3.0)
       faraday (~> 2.0)
-    ffi (1.17.1-x64-mingw-ucrt)
-    ffi (1.17.1-x86_64-linux-gnu)
+    ffi (1.17.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.7)
@@ -62,7 +61,7 @@ GEM
     jgd (1.14.0)
       jekyll (>= 1)
       trollop (>= 2)
-    json (2.7.2)
+    json (2.10.2)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -76,7 +75,7 @@ GEM
     multi_json (1.15.0)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
-    net-http (0.4.1)
+    net-http (0.6.0)
       uri
     nio4r (2.7.4)
     octokit (4.25.1)
@@ -131,7 +130,7 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    uri (0.13.2)
+    uri (1.0.3)
     wdm (0.2.0)
     webrick (1.9.1)
 
@@ -143,6 +142,7 @@ DEPENDENCIES
   backports (~> 3.25)
   bundler (~> 2.4.3)
   faraday-retry
+  ffi
   jekyll (~> 4.3.4)
   jekyll-admin (~> 0.12.0)
   jekyll-feed (~> 0.17.0)

@@ -3,7 +3,7 @@ name: Dan Massarano
 username: dmassarano
 bio: "Hi, I'm Dan, a Data Engineer"
 site: https://danmassarano.com
-avatar: my_profile.png
+avatar: avatar.png
 email: danielmassarano@gmail.com
 social:
     - title: "github"
